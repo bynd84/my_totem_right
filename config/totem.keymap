@@ -15,10 +15,10 @@
 
 #define layers 0
 #define qwerty  1
-#define SYM  2
-#define ADJ  3
-#define TVP1 4
-#define TVP2 5
+#define numpad  2
+#define mouse  3
+#define mouse2 4
+#define symbols 5
 
 / {
     combos { compatible = "zmk,combos"; };
