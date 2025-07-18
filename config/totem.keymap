@@ -80,10 +80,10 @@
 
         mouse2 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp LBKT  &kp RBKT  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp APOS  &kp LBKT  &kp RBKT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+        &trans  &trans  &trans  &trans  &trans    &trans          &trans            &trans            &trans           &trans
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_X(-70)  &mmv MOVE_Y(-70)  &mmv MOVE_X(70)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &trans            &mmv MOVE_Y(70)   &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans            &trans
             >;
 
             label = "mouse2";
