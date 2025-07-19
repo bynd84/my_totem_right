@@ -36,10 +36,10 @@
 
         layers {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &to 1   &to 2        &to 3   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans       &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &bootloader
+       &none  &none  &none  &none  &none    &none  &none  &none        &none  &none
+       &none  &none  &none  &none  &none    &none  &to 1  &to 2        &to 3  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none        &none  &none  &none
+                     &none  &none  &none    &none  &none  &bootloader
             >;
 
             label = "layers";
