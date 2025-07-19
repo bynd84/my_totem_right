@@ -29,15 +29,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        y {
-            bindings = <&kp A>;
-            key-positions = <6 16>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
