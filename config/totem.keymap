@@ -92,10 +92,10 @@
 
         symbols {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(GRAVE)
-        &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp APOS      &kp LBKT      &kp RBKT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH   &trans        &trans        &trans        &trans         &trans
-                        &trans  &trans  &trans    &trans     &trans        &trans
+        &trans  &trans  &trans  &trans  &trans    &trans    &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(GRAVE)
+        &trans  &trans  &trans  &trans  &trans    &trans    &kp APOS      &kp LBKT      &kp RBKT      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH  &trans        &trans        &trans        &trans         &trans
+                        &trans  &trans  &trans    &trans    &trans        &trans
             >;
 
             label = "symbols";
