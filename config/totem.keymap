@@ -40,6 +40,7 @@
         lyrs {
             bindings = <&sl 5>;
             key-positions = <27 29>;
+            layers = <0 1 2>;
         };
     };
 
