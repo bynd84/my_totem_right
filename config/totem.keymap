@@ -32,9 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        cfg {
+        wtf_combo {
             bindings = <&kp A>;
-            key-positions = <11 13>;
+            key-positions = <11 13 0 4>;
         };
 
         lyrs {
