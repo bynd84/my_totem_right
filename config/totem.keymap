@@ -93,8 +93,8 @@
         symbols {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans    &kp LS(APOS)  &kp LS(LBKT)  &kp LS(RBKT)  &kp LS(GRAVE)
-        &trans  &trans  &trans  &trans  &trans    &trans    &kp APOS      &kp LBKT      &kp RBKT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH  &trans        &trans        &trans        &trans         &trans
+        &trans  &trans  &trans  &trans  &trans    &trans    &kp APOS      &kp LBKT      &kp RBKT      &kp RSHFT
+&trans  &trans  &trans  &trans  &trans  &trans    &kp BSLH  &trans        &trans        &trans        &kp RCTRL      &kp RALT
                         &trans  &trans  &trans    &trans    &trans        &trans
             >;
 
