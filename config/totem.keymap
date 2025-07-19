@@ -37,9 +37,9 @@
             key-positions = <11 13>;
         };
 
-        tst {
-            bindings = <&kp A>;
-            key-positions = <16 18>;
+        lyrs {
+            bindings = <&sl 5>;
+            key-positions = <27 29>;
         };
     };
 
