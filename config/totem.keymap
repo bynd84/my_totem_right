@@ -33,7 +33,7 @@
         compatible = "zmk,combos";
 
         lyrs {
-            bindings = <&to 0>;
+            bindings = <&to 2>;
             key-positions = <27 29>;
             layers = <1 2 3>;
         };
