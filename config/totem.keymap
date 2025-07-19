@@ -38,9 +38,9 @@
         };
 
         lyrs {
-            bindings = <&sl 5>;
-            key-positions = <24 22>;
-            layers = <5>;
+            bindings = <&kp A>;
+            key-positions = <>;
+            layers = <0>;
         };
     };
 
