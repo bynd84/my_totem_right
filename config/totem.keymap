@@ -20,7 +20,6 @@
 #define mouse2 3
 #define symbols 4
 #define layers 5
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 2    // default: 10
 
@@ -34,7 +33,7 @@
         compatible = "zmk,combos";
 
         lyrs {
-            bindings = <&to 5>;
+            bindings = <&to 0>;
             key-positions = <27 29>;
             layers = <0 1 2>;
         };
